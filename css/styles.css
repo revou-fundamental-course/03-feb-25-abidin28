@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: khaki;
     font-family: monospace;
 }
 
@@ -61,14 +62,32 @@ button {
 }
 
 .bg-reverse {
-    background-color: lightgray;
+    background-color: blue;
 }
 
 .remark {
     font-weight: 100px;
     font-size: x-large;
-} 
+}
+
+.rumus-1 {
+    font-weight : 100px;
+    font-size: x-large;
+}
+
+.rumus-2 {
+    font-weight : 100px;
+    font-size: x-large;
+}
 
 footer {
     text-align: center;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 480px) {
+    main {
+        background-color: darkkhaki;
+    }    
+} 
